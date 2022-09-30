@@ -8,14 +8,14 @@ console.log(warmHugs.toUpperCase());
 console.log(warmHugs.replace("like", "LOVE"));
 
 // 2a
-var beenImpaled = "Oh, look at that. I\'ve been impaled."
+let beenImpaled = "Oh, look at that. I\'ve been impaled."
 console.log(beenImpaled)
 
 // 2b
-console.log(beenImpaled.slice(18))
+console.log(beenImpaled.slice(18));
 
 // 3a
-var dotDotDot = "..."
+let dotDotDot = "..."
 
 //3b
 skullBones = `I don't have a skull ${dotDotDot} or bones`;
@@ -31,11 +31,11 @@ let randomNumber = Math.random();
 
 randomNumber *= 3;
 
-randomNumber=Math.floor(randomNumber)
+randomNumber=Math.floor(randomNumber);
 
 randomNumber++;
 
-console.log(randomNumber)
+console.log(randomNumber);
 
 // Bonus
 
@@ -43,11 +43,11 @@ console.log(randomNumber)
 
 // I cant figure out how to do this one without a variable :/
 
-// console.log" Let it go!"(string.repeat(2))(snow.toUpperCase)" Let it go!"
+console.log(" Let it go!".repeat(2).toUpperCase());
 
 
 // 7 a
-let reindeer="Reindeer are better than people."
+let reindeer="Reindeer are better than people.";
 
 // 7b
 console.log(reindeer.replaceAll(" ", "_"));
@@ -56,6 +56,6 @@ console.log(reindeer.replaceAll(" ", "_"));
 console.log(Math.sqrt(2));
 
 // 9
-let newRandomNumber = Math.floor(Math.random() * 15)+7
+let newRandomNumber = Math.floor(Math.random() * 15)+7;
 
-console.log(newRandomNumber)
+console.log(newRandomNumber);
